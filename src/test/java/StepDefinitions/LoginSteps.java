@@ -10,14 +10,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import javax.xml.bind.SchemaOutputResolver;
 import java.util.List;
 
 public class LoginSteps {
 
     @Before
     public void beforeHook(){
-        System.out.println("Before hook");
+        System.out.println("Execute before hook");
     }
     @After
     public void afterHook(){
