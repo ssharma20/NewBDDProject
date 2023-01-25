@@ -16,11 +16,11 @@ public class LoginSteps {
 
     @Before
     public void beforeHook(){
-        System.out.println("Execute before hook");
+        System.out.println("before hook executed");
     }
     @After
     public void afterHook(){
-        System.out.println("After hook");
+        System.out.println("After hook executed");
     }
 
     @BeforeStep
