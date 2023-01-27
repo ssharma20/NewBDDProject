@@ -1,2 +1,2 @@
 # NewBDDProject
-BDD project examples
+This project contains BDD Examples
