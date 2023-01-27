@@ -17,7 +17,7 @@ public class LoginStepsWithExamples {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
-        System.out.println("The user is at the login page of the Application");
+        System.out.println("The user is at the login page of the Application..");
     }
 
     @When("the user enters {string} and {string}")
