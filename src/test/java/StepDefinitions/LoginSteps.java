@@ -17,6 +17,8 @@ public class LoginSteps {
     @Before
     public void beforeHook(){
         System.out.println("before hook executed");
+        System.out.println("hello");
+
     }
     @After
     public void afterHook(){
